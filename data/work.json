@@ -1,16 +1,84 @@
 {
     "aryData" : [
                         {"aryCol":[
-                                    {"id":"0_0", "title" : "Media 5", "desc" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum", "imageSrc" : "images/works/work-images/image1.jpg", "overlayTitle" : "Media 5", "url" : "http://www.youtube.com", "type" : "<img src='images/works/overlay/tag.png' class='type-image'> Desktop Application <a href='http://www.youtube.com' target='_blank'>View Project</a>" },
-                                    {"id":"0_1", "title" : "Ayala Land Inc", "desc" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum", "imageSrc" : "images/works/work-images/image2.jpg", "overlayTitle" : "Ayala Land", "url" : "http://www.google.com", "type" : "<img src='images/works/overlay/tag.png' class='type-image'> Desktop Application <a href='http://www.youtube.com' target='_blank'>View Project</a>"  },
-                                    {"id":"0_2", "title" : "Intel", "desc" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum", "imageSrc" : "images/works/work-images/image3.jpg", "overlayTitle" : "Intel", "url" : "http://www.facebook.com", "type" : "<img src='images/works/overlay/tag.png' class='type-image'> Desktop Application <a href='http://www.youtube.com' target='_blank'>View Project</a>"  }
+                                    {"id":"0_0", "title" : "Media 5", "desc" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum", "imageSrc" : "images/works/work-images/image1.jpg", "overlayTitle" : "Media 5", "url" : "http://www.youtube.com" },
+                                    {"id":"0_1", "title" : "Ayala Land Inc", "desc" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum", "imageSrc" : "images/works/work-images/image2.jpg", "overlayTitle" : "Ayala Land", "url" : "http://www.google.com" },
+                                    {"id":"0_2", "title" : "Intel", "desc" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum", "imageSrc" : "images/works/work-images/image3.jpg", "overlayTitle" : "Intel", "url" : "http://www.facebook.com" }
                                 ]},
             
                         {"aryCol":[
-                                     {"id":"1_0", "title" : "Medicol", "desc" : "Description row 2 col 1", "imageSrc" : "images/works/work-images/image4.jpg", "overlayTitle" : "Medicol", "url" : "http://www.google.com", "type" : "<img src='images/works/overlay/tag.png' class='type-image'> Web and Mobile Application <a href='http://www.google.com' target='_blank'>View Project</a>"  },
-                                    {"id":"1_1", "title" : "Globe", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image7.jpg", "overlayTitle" : "Globe", "url" : "http://www.google.com", "type" : "<img src='images/works/overlay/tag.png' class='type-image'> Facebook Application <a href='http://www.google.com' target='_blank'>View Project</a>" },
-                                    {"id":"1_2", "title" : "Ponds", "desc" : "Description row 2 col 1", "imageSrc" : "images/works/work-images/image6.jpg", "overlayTitle" : "Ponds", "url" : "http://www.google.com", "type" : "<img src='images/works/overlay/tag.png' class='type-image'> Facebook Application <a href='http://www.google.com' target='_blank'>View Project</a>"  }
+                                     {"id":"1_0", "title" : "Medicol", "desc" : "Description row 2 col 1", "imageSrc" : "images/works/work-images/image4.jpg", "overlayTitle" : "Medicol", "url" : "http://www.google.com" },
+                                    {"id":"1_1", "title" : "Globe", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image7.jpg", "overlayTitle" : "Globe", "url" : "http://www.google.com"},
+                                    {"id":"1_2", "title" : "Ponds", "desc" : "Description row 2 col 1", "imageSrc" : "images/works/work-images/image6.jpg", "overlayTitle" : "Ponds", "url" : "http://www.google.com" }
+                                ]},
+        
+                        {"aryCol":[
+                                     {"id":"2_0", "title" : "Axe Last Hottie", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image10.jpg", "overlayTitle" : "Axe Last Hottie", "url" : "http://www.google.com" },
+                                    {"id":"2_1", "title" : "Axe Lab", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image11.jpg", "overlayTitle" : "Axe Lab", "url" : "http://www.google.com" },
+                                    {"id":"2_2", "title" : "Chowking", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image12.jpg", "overlayTitle" : "Chowking", "url" : "http://www.google.com" }
+                                ]},
+        
+                        {"aryCol":[
+                                     {"id":"3_0", "title" : "Del Monte Heart Smart", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image16.jpg", "overlayTitle" : "Del Monte Heart Smart", "url" : "http://www.google.com" },
+                                    {"id":"3_1", "title" : "Del Monte Fruitastic", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image17.jpg", "overlayTitle" : "Del Monte Fruitastic", "url" : "http://www.google.com" },
+                                    {"id":"3_1", "title" : "Del Monte", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image14.jpg", "overlayTitle" : "Del Monte Quick n Easy", "url" : "http://www.google.com" }
+                                ]},
+            
+            
+                        {"aryCol":[
+                                     {"id":"4_0", "title" : "Clear Citra", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image13.jpg", "overlayTitle" : "Clear Citra", "url" : "http://www.google.com" },
+                                    {"id":"4_2", "title" : "Dove", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image18.jpg", "overlayTitle" : "Dove", "url" : "http://www.google.com" },
+                                    {"id":"4_2", "title" : "Discovery Channel", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image15.jpg", "overlayTitle" : "Discovery Channel", "url" : "http://www.google.com" }
+                                ]},
+            
+        
+                        {"aryCol":[
+                                     {"id":"5_0", "title" : "Mongolia Org", "desc" : "Description row 2 col 1", "imageSrc" : "images/works/work-images/image5.jpg", "overlayTitle" : "Mongolia", "url" : "http://www.google.com" },
+                                    {"id":"5_1", "title" : "Bodrexin", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image8.jpg", "overlayTitle" : "Bodrexin", "url" : "http://www.google.com" },
+                                    {"id":"5_2", "title" : "ADB", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image9.jpg", "overlayTitle" : "ADB", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"6_0", "title" : "Enercal", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image19.jpg", "overlayTitle" : "Enercal", "url" : "http://www.google.com" },
+                                    {"id":"6_1", "title" : "Xpert PH", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image20.jpg", "overlayTitle" : "Xpert PH", "url" : "http://www.google.com" },
+                                    {"id":"6_2", "title" : "Garnier Light", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image21.jpg", "overlayTitle" : "Garnier Light", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"7_0", "title" : "Row 3 Col 1", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image22.jpg", "overlayTitle" : "Garnier Extra Fun Vow", "url" : "http://www.google.com" },
+                                    {"id":"7_1", "title" : "Row 3 Col 2", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image23.jpg", "overlayTitle" : "Garnier BB Cream", "url" : "http://www.google.com" },
+                                    {"id":"7_2", "title" : "Row 3 Col 3", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image24.jpg", "overlayTitle" : "Garnier Mother Dear", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"8_0", "title" : "Garnier FB App", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image25.jpg", "overlayTitle" : "Garnier FB App", "url" : "http://www.google.com" },
+                                    {"id":"8_1", "title" : "Yahoo Purple Hunt", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image26.jpg", "overlayTitle" : "Yahoo Purple Hunt", "url" : "http://www.google.com" },
+                                    {"id":"8_2", "title" : "Wyeth", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image27.jpg", "overlayTitle" : "Wyeth", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"9_0", "title" : "Watsons", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image28.jpg", "overlayTitle" : "Watsons", "url" : "http://www.youtube.com" },
+                                    {"id":"9_1", "title" : "Samsonite", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image29.jpg", "overlayTitle" : "Samsonite", "url" : "http://www.google.com" },
+                                    {"id":"9_2", "title" : "Maybelline babylips", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image30.jpg", "overlayTitle" : "Maybelline babylips", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"10_0", "title" : "Maybelline lipsmooth", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image31.jpg", "overlayTitle" : "Maybelline lipsmooth", "url" : "http://www.google.com" },
+                                    {"id":"10_1", "title" : "Marlboro", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image32.jpg", "overlayTitle" : "Marlboro", "url" : "http://www.google.com" },
+                                    {"id":"10_2", "title" : "Ponds Strike a Pose", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image33.jpg", "overlayTitle" : "Ponds Strike a Pose App", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"11_0", "title" : "L'Oreal", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image34.jpg", "overlayTitle" : "L'Oreal", "url" : "http://www.google.com" },
+                                    {"id":"11_1", "title" : "Lipton Cover Photo", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image35.jpg", "overlayTitle" : "Lipton Cover Photo", "url" : "http://www.google.com" },
+                                    {"id":"11_2", "title" : "Lipton", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image36.jpg", "overlayTitle" : "Lipton JibJab Style", "url" : "http://www.google.com" }
+                                ]},
+            
+                        {"aryCol":[
+                                     {"id":"12_0", "title" : "Intel Sing to win", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image37.jpg", "overlayTitle" : "Intel Sing to win", "url" : "http://www.google.com" },
+                                    {"id":"12_1", "title" : "IFA Fashion", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image38.jpg", "overlayTitle" : "IFA Fashion", "url" : "http://www.google.com" },
+                                    {"id":"12_2", "title" : "IFA Fashion", "desc" : "Description row 3 col 1", "imageSrc" : "images/works/work-images/image38.jpg", "overlayTitle" : "Lipton JibJab Style", "url" : "http://www.google.com" }
                                 ]}
-                        
+            
                       ]
 }
