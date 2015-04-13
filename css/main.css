@@ -1,0 +1,524 @@
+/*fonts*/
+@font-face {
+    font-family: 'robotoReg';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoLight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px auto;
+    width: auto;
+}
+
+.active{
+	color: #ffffff !important;
+}
+
+.btnNav{
+    color: #939292;
+}
+
+.row{
+/*    border: 1px solid red;  */
+}
+
+/*navbar style*/
+.navbar{
+	border: none;
+	background-color: rgba(0,0,0,0.9);
+    padding: 15px 0 15px 0 !important;
+    z-index: 800;
+}
+
+
+/*css for logo*/
+.navbar-brand{
+	font-family: robotoMedium;
+	color: white !important;
+    font-size: 1.6em;
+}
+
+.text-paul{
+	color: #f7c708;
+}
+
+/*font custom for nav links*/
+nav li{
+	font-family: robotoReg;
+	font-size: 12px;
+}
+
+/* slide 1 */
+#slide1{
+    background: url("../images/slide1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#cover-content{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header-content{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0px 40px 0px 40px;
+/*    border: 1px solid red;*/
+}
+
+.main-logo{
+    font-family: robotoMedium;
+    font-size: 4.2em;
+    letter-spacing: -1px;
+}
+
+.header-content p{
+/*    font-family: robotoReg;*/
+    font-family: robotoLight;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 1.1em;
+}
+
+.header-content img{
+    width: 100%;
+    max-width: 325px;
+/*    border: 1px solid red;*/
+}
+
+/*Button Explore*/
+.header-content a{
+	color: white;
+	font-size: 14px;
+	border: 1px solid #FFF;
+	padding: 10px 25px 10px 25px;
+	font-family: robotoReg;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+    text-decoration: none;
+}
+
+.header-content a:hover{
+	background-color: #f7c708;
+	border: 1px none;
+}
+
+/*slide 2*/
+#slide2{
+    background-color: white;
+    padding: 140px 0 140px 0;
+}
+
+.about-me-desc h6{
+	color: #252424;
+	font-family: robotoLight;
+    font-size: 1.2em;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+.paul{
+    color: #f7c708; 
+    font-family: robotoReg;
+}
+
+/*slide 3*/
+#slide3{
+    background: url("../images/slide3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+.row-icon{
+/*    background-color: #FF0000;*/
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.icons{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+    width: 350px;
+}
+
+.icons h4{
+    font-family: robotoMedium;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 20px;
+    color: white;
+}
+
+.icons p{
+    font-family: robotoReg;
+    line-height: 1.8em;
+}
+
+/*slide 4*/
+#slide4{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 80px 0 40px 0;
+}
+
+#slide4 h1{
+    margin-bottom: 80px;
+    font-family: robotoMedium;
+    color: #3b3535;
+}
+
+/*pop up content and button item css*/
+/*
+.popup-block {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.popup-block img{
+    width: 100%;
+}
+
+.popup-block h4{
+    margin-top: 30px;
+    color: #38352a;
+    font-size: 1.8em;
+    font-family: robotoMedium;
+}
+
+.popup-block p{
+    color: #38352a;
+    font-family: robotoReg;
+}
+*/
+
+.work-items{
+    padding: 25px;
+}
+
+.box{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    overflow: hidden;
+    background-size: cover;
+    display: table;
+    cursor: pointer;
+}
+
+#overlay{
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+#overlay:hover{
+    opacity: 1;
+}
+
+#overlay-hover{
+    color: white;
+    font-size: 18px;
+    font-family: robotoMedium;
+}
+
+/*slide 5 quote*/
+#slide5{
+    background-color: #f7c708;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 140px 0 140px 0;
+}
+
+#slide5 h1{
+    font-family: robotoLight;
+    line-height: 50px;
+}
+
+.web-design{
+/*    color: black;*/
+}
+
+
+/*slide 6 contacts section*/
+#slide6{
+    width: 100%;
+    padding: 180px 0 180px 0;
+    background-color: #21201d;
+    background: url("../images/slide4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#slide6 h1{
+    margin-bottom: 80px;
+    font-family: robotoMedium;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#slide6 a{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#slide6 a:hover{
+    background-color: #f7c708;
+    border: 1px none;
+}
+
+
+/*footer*/
+#footer{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: #101010;
+    color: gray;
+}
+
+#footer p{
+    font-family: robotoLight;
+    font-size: 12px;
+/*    border: 1px solid red;*/
+}
+
+
+
+/* Fullscren Overlay style */
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+/*    background: rgba(241, 196, 15,0.9);*/
+    background: rgba(255,255,255, 1);
+    text-align: center;
+    z-index: 999;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(../images/works/overlay/cross.png) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+/* main overlay style */
+.pop-up-overlay{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+/*.pop-up-overlay img{*/
+.image-pop-up{
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*Title and desc*/
+.title-pop-up, .desc-pop-up, .app-type{
+    max-width: 550px;
+    margin: 0px auto;
+    padding: 8px;
+    color: #464444;
+    text-align: left;
+}
+
+.title-pop-up{
+    font-family: robotoMedium;
+}
+
+.desc-pop-up{
+    font-family: robotoLight;
+    font-size: 1.1em;
+}
+
+.app-type{
+    font-family: robotoLight;
+    color: black;
+}
+
+.app-type a{
+    text-decoration: none;
+    font-family: robotoLight;
+}
+
+.type-image{
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
+
+
+/* Effects */
+.overlay-door {
+	visibility: hidden;
+	width: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: width 0.5s 0.3s, visibility 0s 0.8s;
+	transition: width 0.5s 0.3s, visibility 0s 0.8s;
+}
+
+.overlay-door.open {
+	visibility: visible;
+	width: 100%;
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
+}
+
+
+.overlay-door .overlay-close {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.3s;
+	transition: opacity 0.3s 0.3s;
+}
+
+.overlay-door section{
+    opacity: 0;
+	-webkit-transition: opacity 0.3s 0.1s;
+	transition: opacity 0.3s 0.1s;
+}
+
+.overlay-door.open section,
+.overlay-door.open .overlay-close {
+	opacity: 1;
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.overlay-door.close section,
+.overlay-door.close .overlay-close {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+
+/*scale effect just change scale in html*/
+/*
+.overlay-scale {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+	transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+}
+
+.overlay-scale.open {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);	
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
