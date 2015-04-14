@@ -1,20 +1,6 @@
 $(document).ready(function(){
     
-    console.log("ready work js");
-        
-//	var	overlay = document.querySelector( 'div.overlay' ),
-//		closeBttn = overlay.querySelector( 'button.overlay-close' );
-//		transEndEventNames = {
-//			'WebkitTransition': 'webkitTransitionEnd',
-//			'MozTransition': 'transitionend',
-//			'OTransition': 'oTransitionEnd',
-//			'msTransition': 'MSTransitionEnd',
-//			'transition': 'transitionend'
-//		},
-//		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
-//		support = { transitions : Modernizr.csstransitions };
-    
-    
+    console.log("ready work js");    
     
     var aryRowVO = [];
     
@@ -110,89 +96,6 @@ $(document).ready(function(){
         });
     }
     
-        
-    
-    function toggleOverlay(){
-        
-        var toggleElement = $(this).attr("class");
-        console.log("toggleElement: " + toggleElement);
-        
-        if(toggleElement == 'box fadeIn'){
-            var id = $(this).attr("id");
-//            var aryId = id.split("_");
-//            var indexRow = aryId[0];
-//            var indexCol = aryId[1];
-            
-            for(var i = 0; i < aryRowVO.length; i++){
-                
-                for(var p = 0; i < aryRowVO[i].aryCol.length; p++){
-                    if(id == aryRowVO[i].aryCol[p].id){
-                        
-                        console.log("ID: " + id);
-                        
-//                        var title = aryRowVO[i].aryCol[p].title;
-//                        var desc = aryRowVO[i].aryCol[p].desc;
-//                        var image = aryRowVO[i].aryCol[p].imageSrc;
-//                        var type = aryRowVO[i].aryCol[p].type;
-//                        //url not used yet (in case)
-//                        var url = aryRowVO[i].aryCol[p].url;
-//
-//                        $('.image-pop-up').attr('src', image);
-//                        $('.title-pop-up').html(title);
-//                        $('.desc-pop-up').html(desc);
-//                        $('.url-link').attr('href', url);
-//                        $('.app-type').html(type);
-                        
-                        break;
-                    }
-                }
-            }
-
-                        
-            
-            /*
-            console.log("title: " + title);
-            console.log("desc: " + desc);
-            console.log("image: " + image);
-            console.log("url link: " + url);
-            console.log("type: " + type);
-            */
-            
-            //hide scrollbar in browser (disable) enable on close
-            //$('body').css({"overflow":"hidden"});
-            
-        }else if(toggleElement == "overlay-close"){
-            
-        }
-        
-        if( classie.has( overlay, 'open' ) ) {
-			classie.remove( overlay, 'open' );
-			classie.add( overlay, 'close' );
-			var onEndTransitionFn = function( ev ) {
-				if( support.transitions ) {
-					if( ev.propertyName !== 'visibility' ) return;
-					this.removeEventListener( transEndEventName, onEndTransitionFn );
-				}
-				classie.remove( overlay, 'close' );
-                //$('body').css({"overflow":"auto"});
-			};
-			if( support.transitions ) {
-				overlay.addEventListener( transEndEventName, onEndTransitionFn );
-			}
-			else {
-				onEndTransitionFn();
-			}
-		}
-		else if( !classie.has( overlay, 'close' ) ) {
-			classie.add( overlay, 'open' );
-		}
-    }
-    
-    
-    function thumbItemClickSetup(){
-//        $('.box').click(toggleOverlay);
-//        $('.overlay-close').click(toggleOverlay);
-    }
 });
 
 
