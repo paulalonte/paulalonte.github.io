@@ -101,6 +101,7 @@ nav li{
     background: url("../images/slide1.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     min-height: 100%;
 }
@@ -118,6 +119,7 @@ nav li{
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     padding: 0px 40px 0px 40px;
@@ -187,6 +189,7 @@ nav li{
     background: url("../images/slide3.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     padding: 60px 0 60px 0;
 }
@@ -204,6 +207,7 @@ nav li{
 	top: 50%;
     -webkit-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
     width: 350px;
 }
@@ -234,36 +238,6 @@ nav li{
     font-family: robotoMedium;
     color: #3b3535;
 }
-
-/*pop up content and button item css*/
-/*
-.popup-block {
-    position: relative;
-    background: #FFF;
-    padding: 20px;
-    max-width: 600px;
-    margin: 0px auto;
-    text-align: center;
-    font-family: Verdana;
-}
-
-.popup-block img{
-    width: 100%;
-}
-
-.popup-block h4{
-    margin-top: 30px;
-    color: #38352a;
-    font-size: 1.8em;
-    font-family: robotoMedium;
-}
-
-.popup-block p{
-    color: #38352a;
-    font-family: robotoReg;
-}
-*/
-
 
 /*CSS FOR ALL MODAL BOX*/
 .modal-dialog{
@@ -326,6 +300,7 @@ nav li{
     vertical-align: middle;
     -webkit-transition: opacity 0.5s ease;
     -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
     opacity: 0;
 }
@@ -367,6 +342,7 @@ nav li{
     background: url("../images/slide4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: white;
     text-align: center;
@@ -386,6 +362,7 @@ nav li{
     padding: 15px;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
