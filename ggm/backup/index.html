@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, charset=utf-8" />
-    <meta name="description" content="beauty products">
-    <title>GreengoddessManila</title>
+    <title>green organics</title>
     
     <!--css libraries-->
 <!--    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">-->
@@ -34,7 +33,7 @@
 	        <div class="collapse navbar-collapse navHeaderCollapse">
 	            <ul class="nav navbar-nav navbar-right">
                     <li><a href="#" class="btnNav btn-view-cart" data-toggle="modal" data-target="#viewCartModal"><img src="images/nav/view_cart_icon.png" width="22" height="20">&nbsp;&nbsp;View Cart (<span class="cart-count">0</span>)</a></li>
-                    <li><a href="#howToOrderModal" class="btnNav" data-toggle="modal" data-target="#howToOrderModal">How to Order</a></li>
+                    <li><a href="product_detail.html" class="btnNav" target="_blank">How to Order</a></li>
                     <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop Now <b class="caret"></b></a>
 						<ul class="dropdown-menu pull right">
@@ -62,6 +61,7 @@
     <div class="container logo-container">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12 logo">
+<!--                <img src="images/logo.png" width="80" height="80">&nbsp;greengoddess<span class="manila">manila-->
                 <img src="images/main_logo.png">
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12 search-holder">
@@ -77,7 +77,22 @@
         </div>
     </div>
     
-    <div class="container main-container">        
+    <div class="container main-container">
+        
+<!--
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section1">
+                    <div class="heading">
+                        <h1>LET'S GET <span class="real">REAL</span></h1>
+                        <p>Go Organic. Get back to what's<br>natural and save.</p>
+                        <a href="#brands">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+-->
+        
         <!--carousel-->
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
             <!-- Indicators -->
@@ -176,32 +191,27 @@
         
         <!-- Modal about us -->
         <div id="aboutUsModal" class="modal fade">
-            <div class="modal-dialog modal-lg modal-dialog-about">
-                <div class="modal-content modal-content-about">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h3 class="modal-about-title">Who we are and What we do</h3>
+                        <h3 class="modal-title">Who we are and What we do</h3>
                     </div>
 
                     <div class="modal-body">
-                        <div class="container">
-                            <div class="row">
-                                <h3 class="text-warning">GreengoddessManila is creating a world of pleasure through pure products and positive principles.</h3>
-                                <br>
-                                <h4>Our Intention</h4>
-                                <p>We strive to make soap so good that you have a better day just for having washed with it. Then your better day inspires another's better day and the whole world spirals into happiness. Not bad for simply washing up!</p>
-                                <hr>
-                                <h4>Our Products</h4>
-                                <p>Organics is a premier manufacturer of handcrafted body care products for adults, babies, and children. Our ingredients are naturally sourced and primarily organic, and our recipes and techniques are unparalleled. We never compromise on ingredients or techniques, so our products are of consistently high quality. We scent exclusively with essential oils and color only with natural pigments, herbs, and clays. Inferior natural ingredients are also rejected, and high-quality, beneficial ingredients are consistently used.</p>
-                                <hr>
-                                <h4>Our Community</h4>
-                                <p>By keeping our business local, we support the small-town and rural economy of our region. Whenever possible we will hire local people and utilize local or regional suppliers and growers for ingredients and materials. In addition, LuSa Organics supports local social and environmental organizations by giving money and time to causes that resonate with us. Each year we will donate 10% of our profits to the organizations generating positive global change.</p>
-                            </div>
-                        </div>
-                                
+                        <h3 class="text-warning">Organics Manila is creating a world of pleasure through pure products and positive principles.</h3>
+                        <br>
+                        <h4>Our Intention</h4>
+                        <p>We strive to make soap so good that you have a better day just for having washed with it. Then your better day inspires another's better day and the whole world spirals into happiness. Not bad for simply washing up!</p>
+                        <hr>
+                        <h4>Our Products</h4>
+                        <p>Organics is a premier manufacturer of handcrafted body care products for adults, babies, and children. Our ingredients are naturally sourced and primarily organic, and our recipes and techniques are unparalleled. We never compromise on ingredients or techniques, so our products are of consistently high quality. We scent exclusively with essential oils and color only with natural pigments, herbs, and clays. Inferior natural ingredients are also rejected, and high-quality, beneficial ingredients are consistently used.</p>
+                        <hr>
+                        <h4>Our Community</h4>
+                        <p>By keeping our business local, we support the small-town and rural economy of our region. Whenever possible we will hire local people and utilize local or regional suppliers and growers for ingredients and materials. In addition, LuSa Organics supports local social and environmental organizations by giving money and time to causes that resonate with us. Each year we will donate 10% of our profits to the organizations generating positive global change.</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn-cont-close-shopping" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default btn-close-modal" data-dismiss="modal">Close</button>
                     </div>
                 
                 </div>
@@ -212,12 +222,14 @@
         <div id="addCartModal" class="modal fade">
             <div class="modal-dialog modal-product-detail">
                 <div class="modal-content modal-content-product-detail">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h3 class="add-to-cart-title">Product Details</h3>
-                    </div>
                     <!--PRODUCT ITEM DETAILS -->
                     <div class="container-fluid main-product-detail-holder" style="display:block">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 product-item-detail-container">
+                                <h3 class="add-to-cart-title">PRODUCT DETAILS</h3>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col-md-6 col-sm-12 image-prod-holder">
                                 <img src="images/products/prod1.jpg" class="image-detail-product">
@@ -259,7 +271,7 @@
                 <div class="modal-content modal-content-view-cart">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h2 class="modal-title view-to-cart-title">Your Cart Details</h2>
+                        <h2 class="modal-title view-to-cart-title">Order Summary</h2>
                     </div>
 
                     <div class="modal-body">
@@ -294,26 +306,14 @@
                     <div class="modal-body">
                         
                         <div class="container">
-                            <h4 class="shipping-total-amount-label">YOUR TOTAL AMOUNT FROM YOUR CART IS : <span class="shipping-total-amount">P0</span></h4>
-                            <p>* Shipping Fee Still not included</p>
-                            <hr>
                             <h4 class="billing-text">We Ship (Via Xend)</h4>
-                            <p class="shipping-disclaimer">You will receive a confirmation and order details through email. We will get back to you within 24 hours. You may also contact us at +63916.243.5500</p>
-                            
-                            <div class="row">
-                                
-                                <!--column 1 in shipping details-->
-                                <div class="col-md-6 col-sm-6 col-xs-12 order-summary-holder">
-                                    <h3>Order Summary</h3>
-                                    <hr>
-                                    <table class="order-item-details"></table>
-                                </div>
-                                
-                                <!--column 2 in shipping details-->
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <form class="order-form" role="form" method="get">
+                            <p class="text-warning"><small>Your message will be sent through email. We will get back to you within 24 hours as soon as we receive your email. You may also contact us at +63916.243.5500</small></p>
 
-                                        <h4>Personal Information</h4>
+                            <form class="form-inline order-form" role="form" method="get">
+
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 form-row-1">
+                                        <h4>Personal Info</h4>
                                         <div class="form-group">
                                             <input type="text" id="fullname" placeholder="Name" name="fullname"></input>
                                         </div>
@@ -323,20 +323,18 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="text" id="contact" placeholder="Contact Number" name="contact"></input>
-                                        </div>
-
-                                        <h4>Date of payment</h4>
-                                        <div class="form-group">
-                                            <input type="text" id="dateOfPayment" placeholder="Date of Payment" name="dateOfPayment"></input>
-                                        </div>
-
-                                        <div class="form-group">
                                             <textarea class="form-control shipping-text" rows="3" placeholder="Shipping address" name="address"></textarea>
                                         </div>
 
-                                        <h4>Delivery Area (Via Xend)</h4>
+                                        <div class="form-group">
+                                            <input type="text" id="contact" placeholder="Contact Number" name="contact"></input>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 form-row-2">
+                                        <h4>Delivery Area (Via Xend)</h4>
                                         <div class="radio">
                                             <label>
                                                 <input type="radio" name="deliveryArea" id="manila" value="manila" checked>
@@ -349,6 +347,11 @@
                                                 <input type="radio" name="deliveryArea" id="provincial" value="provincial">
                                                 Provincial  (Small - Php100 and Big Php150)
                                             </label>
+                                        </div>
+
+                                        <h4>Date of payment</h4>
+                                        <div class="form-group">
+                                            <input type="text" id="dateOfPayment" placeholder="Date of Payment" name="dateOfPayment"></input>
                                         </div>
 
                                         <h4>Mode of Payment</h4>
@@ -376,71 +379,19 @@
                                                 Palawan Express
                                             </label>
                                         </div>
-
-                                        <div class="response" style="display:none"></div>
-                                        <button type="submit" class="btn-submit">Submit Order</button>
-                                    </form>
+                                    </div>
                                 </div>
-                                
-                                
-                            </div>                            
-                                    
+
+                                <div class="response" style="display:none"></div>
+                            </form>
                         </div>
     
                         <div class="modal-footer">
-                            <button type="button" class="btn-back-to-cart" data-dismiss="modal">Back to Cart</button>
+                            <button type="submit" class="btn-submit">Submit Order</button>
                             <button type="button" class="btn-cont-close-shopping" data-dismiss="modal">Close and Continue Shopping</button>
                         </div>
                         
                         
-                    </div>
-                
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal How to order HTML -->
-        <div id="howToOrderModal" class="modal fade">
-            <div class="modal-dialog modal-dialog-how-to">
-                <div class="modal-content modal-content-how-to">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h2 class="modal-title view-to-cart-title">How to Order</h2>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xs-12 steps">
-                                <h1>STEP 1</h1>
-                                <img src="images/how_to/howto1.jpg" alt="image 1">
-                                <h4>Choose what brand you prefer</h4>
-                            </div>
-                            <div class="col-md-6 col-sm-12 col-xs-12 steps">
-                                <h1>STEP 2</h1>
-                                <img src="images/how_to/howto2.jpg" alt="image 2">
-                                <h4>Product details will display upon clicking an item. <br>Add to cart then click on continue shopping</h4>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xs-12 steps">
-                                <h1>STEP 3</h1>
-                                <img src="images/how_to/howto3.jpg" alt="image 3">
-                                <h4>You can view your cart by clicking the view cart button on top of the page<br>You can also remove an item by clicking the [X] button. <br>Click proceed checkout to submit order</h4>
-                            </div>
-                            <div class="col-md-6 col-sm-12 col-xs-12 steps">
-                                <h1>STEP 4</h1>
-                                <img src="images/how_to/howto4.jpg" alt="image 4">
-                                <h4>Enter your delivery information<br>Choose your payment<br>Submit order<br>You will receive an email confirmation</h4>
-                                
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn-cont-close-shopping" data-dismiss="modal">Close</button>
                     </div>
                 
                 </div>
@@ -475,12 +426,18 @@
     
     
     <!--Javascript libraries-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<!--    <script src="js/jquery-1.10.2.min.js"></script>-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/social-media.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/submit-order.js"></script>
+<!--    <script src="js/social-media.js"></script>-->
+    <!--<script src="js/featured.js"></script>-->
+    <script src="js/products.js"></script>
+    <script src="js/view-cart.js"></script>
+    
+    <script type="text/javascript">
+        
+	</script>
+    
     
 </body>
 </html>

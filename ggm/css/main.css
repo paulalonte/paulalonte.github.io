@@ -299,13 +299,6 @@ nav li a:hover{
     text-decoration: none;
 }
 
-.brands .product-item{
-    border: 1px solid #eae7e7;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .products .product-item{
     border: 1px solid #eae7e7;
     padding: 10px;
@@ -354,8 +347,10 @@ sup{
 }
 
 .brands .product-item{
-    border: 1px solid #eae7e7;
+    border: 1px solid #fff;
     text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
     -webkit-transition: all 0.6s ease;
     -moz-transition: all 0.6s ease;
     -o-transition: all 0.6s ease;
@@ -762,6 +757,32 @@ table.table-cart-details tr:last-child td:last-child{
 }
 
 
+/*How to CSS*/
+
+.steps{
+    padding: 20px;
+}
+
+.steps h1{
+    font-family: the_bold_fontbold;
+    margin-bottom: 40px;
+    text-indent: 30px;
+    color: #4b4a4a;
+}
+
+.steps h4{
+    font-family: robotoLight;
+    line-height: 40px;
+}
+
+
+.steps img{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+
+
 /* Footer */
 .footer{
 	width: 100%;
@@ -814,7 +835,6 @@ table.table-cart-details tr:last-child td:last-child{
         display: none;
     }
 }
-
 
 
 
