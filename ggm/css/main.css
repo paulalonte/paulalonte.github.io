@@ -1,0 +1,832 @@
+/*fonts*/
+@font-face {
+    font-family: 'robotoReg';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoLight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'the_bold_fontbold';
+    src: url('../fonts/theboldfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/theboldfont.woff2') format('woff2'),
+         url('../fonts/theboldfont.woff') format('woff'),
+         url('../fonts/theboldfont.ttf') format('truetype'),
+         url('../fonts/theboldfont.svg#the_bold_fontbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px auto;
+    width: auto;
+}
+
+.active{
+	color: #000 !important;
+}
+
+.navbar-form .input-group{
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.btnNav{
+    color: #525151 !important;
+}
+
+.row{
+/*    border: 1px solid red;  */
+}
+
+/*navbar style*/
+.navbar{
+	border: none;
+	background-color: rgba(245,245,245, 1);
+    z-index: 800;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+
+.navbar-brand{
+	font-family: robotoLight;
+	color: #60625f !important;
+    font-size: 0.9em;
+    position: relative;
+    top: 5px;
+}
+
+/*font custom for nav links*/
+nav li{
+	font-family: robotoLight;
+	font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+
+nav li a:hover{
+    color: #272725 !important;
+}
+
+/*nav bar icon bar toggle css*/
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #747171;
+}
+
+.navbar-inverse .navbar-toggle{
+    position: relative;
+    top: 8px;
+}
+
+
+.navbar-inverse .navbar-toggle{
+    border-color: #747171;
+    border-style: none;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+    background-color: #c4c2c2;
+}
+
+/*when drop down is clicked*/
+.navbar-inverse .navbar-nav >.open >a, .navbar-inverse .navbar-nav >.open > a:hover, .navbar-inverse .navbar-nav >.open > a:focus{
+    background-color: #ccc9c9;
+}
+
+/*on hover when drop down is clicked*/
+.navbar-inverse .navbar-nav > li >a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #999999;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff;
+    border-style: none;
+}
+
+.logo-container{
+    margin-top: 90px;
+    text-align: left;
+    
+}
+
+.search-box, .btn-search{
+    border-radius: 0;
+    font-family: robotoLight;
+}
+
+.manila{
+    color: #ff8a00;
+}
+
+.search-holder{
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+
+
+.main-container{
+    margin-top: 40px;
+}
+
+/*--------------------------------------------carousel--------------------------------------------*/
+
+.carousel{
+    margin-bottom: 80px;
+}
+
+.carousel-indicators li{
+    border-radius: 0px;
+}
+
+.carousel-inner .item{
+/*    height: 430px;*/
+}
+
+.carousel-caption {
+    bottom: 40%;
+    left: 15%;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    z-index: 10;
+    text-shadow: 0px 0px #FFF;
+    width: auto;
+}
+
+.carousel-caption h1{
+    font-family: the_bold_fontbold;
+    font-size: 3em;
+}
+
+.carousel-caption h4{
+    font-family: robotoLight;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-caption a{
+    margin-top: 20px;
+    font-family: robotoLight;
+    display: block;
+    border: 2px solid white;
+    padding: 5px 0 5px 0;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.carousel-caption a:hover {
+    background-color: #2a901c;
+    border: 2px solid #2a901c;
+}
+
+/*If width is less than 900px*/
+@media(max-width: 900px) {
+    .carousel-caption {
+        bottom: 15%;
+    }
+}
+
+/*If width is less than 600px*/
+@media(max-width: 600px) { 
+    .logo img{
+        max-width: 350px;
+        width: 100%;
+    }
+    
+    .search-holder{
+        text-align: center;
+    }
+    
+   .carousel-caption {
+        bottom: 0%;
+       text-align: center;
+    }
+    
+    .carousel-indicators{
+        display: none;
+    }
+    
+    .carousel-caption h1{
+        font-size: 0.9em;
+    }
+
+    .carousel-caption h4{
+        font-size: 0.6em;
+    }
+}
+
+/*If width is less than 400px*/
+@media(max-width: 400px) {
+    .carousel-caption {
+        bottom: -10%;
+       text-align: center;
+    }
+    
+    .carousel-caption a{
+        width: auto;
+        font-size: 0.8em;
+    }
+}
+
+
+/*----------------------------product item css----------------------------*/
+.products, .featured, .latest, .brands{
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+.products h1, .featured h1, .latest h1, .brands h1{
+    margin-bottom: 40px;
+    font-family: robotoMedium;
+    color: #646464;
+    padding-left: 30px;
+}
+
+.brands a{
+    text-decoration: none;
+}
+
+.brands .product-item{
+    border: 1px solid #eae7e7;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products .product-item{
+    border: 1px solid #eae7e7;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+
+.brands .product-item h3, .featured .product-item h3{
+    font-family: robotoReg;
+    font-size: 1.6em;
+    color: #437429;
+    margin-bottom: 20px;
+}
+
+.product-item h3{
+    font-family: robotoReg;
+    font-size: 1.2em;
+}
+
+.product-item p{
+    font-family: robotoLight;
+}
+
+.product-item img{
+    width: 100%;
+}
+
+.price{
+/*    background-color: #2a901c;*/
+    border: 1.5px solid #2a901c;
+    color: #2a901c;
+    padding: 1px;
+    font-family: robotoReg;
+    margin-top: 20px;
+}
+
+sup{ 
+    font-size:0.6em; 
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.brands .product-item{
+    border: 1px solid #eae7e7;
+    text-align: center;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.brands .product-item h3{
+    font-family: robotoMedium;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    background-color: #758e73;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-bottom: 20px;
+}
+
+.brands .product-item:hover{
+    border: 1px solid #758e73;
+    
+}
+
+.brands .product-item:hover > h3{
+    background-color: #88be84;
+    color: white;
+}
+
+.products .product-item{
+    cursor: pointer;
+}
+
+.products .product-item p{
+    font-family: robotoLight;
+    display: block;
+    border: 1.5px solid #2a901c;
+    background-color: #2a901c;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.products .product-item:hover{
+    border: 1px solid #ff8a00;
+}
+
+.products .product-item:hover > p{
+    background-color: #ff8a00;
+    color: white;
+    border: 1.5px solid #ff8a00;
+}
+
+.sale{
+/*    background-color: #c60505;*/
+}
+
+
+/*CSS FOR ALL MODAL BOX*/
+.modal .modal-product-detail, .modal .modal-dialog-view-cart, .modal .modal-dialog-shipping-details, .modal .modal-dialog-about, .modal .modal-dialog-how-to{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.modal .modal-content-product-detail, .modal .modal-content-view-cart, .modal .modal-content-shipping-details, .modal .modal-content-about, .modal .modal-content-how-to{
+    height: 100%;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border-style: none;
+}
+
+
+/*----------------------------order form css----------------------------*/
+form{
+    width: 100%;
+    font-family: robotoReg;
+}
+
+.shipping-text{
+    width: 200px;
+}
+
+.response{
+    margin: 10px 0 0 10px;
+    color: red;
+    font-family: robotoReg;
+}
+
+/*About us modal css*/
+.modal-about-title{
+    font-family: robotoMedium;
+    text-align: center;
+}
+
+#aboutUsModal .modal-body{
+    font-family: robotoLight;
+}
+
+/*PRODUCT DETAIL PAGE CSS*/
+.main-product-detail-holder{
+    margin-top: 40px;
+}
+
+.image-prod-holder, .desc-prod-holder, .btn-close-holder{
+/*    border: 1px solid red;*/
+    margin-bottom: 20px;
+}
+
+.desc-prod-holder{
+    padding: 0px 60px 0 20px;
+}
+
+.image-prod-holder{
+    text-align: center;
+/*    border: 1px solid #e3e3e3;*/
+}
+
+.image-prod-holder img{
+    max-width: 550px;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+}
+
+.btn-close-holder{
+    text-align: right;
+    padding-right: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-cont-close-shopping, .btn-proceed-checkout, .btn-back-to-cart{
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: #2a901c;
+    font-family: robotoLight;
+    border-style: none;
+    -moz-transition: background-color 0.2s ease;
+    -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    margin-bottom: 10px;
+}
+
+.btn-cont-close-shopping:hover, .btn-proceed-checkout:hover, .btn-back-to-cart:hover{
+    background-color: #ff8a00;
+}
+/*END OF PRODUCT DETAIL PAGE CSS*/
+
+/*----------------------------add to cart form css----------------------------*/
+
+.add-to-cart-title, .add-to-cart-details, .view-to-cart-title{
+    font-family: robotoMedium;
+}
+
+.view-to-cart-title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-to-cart-title{
+    color: #464646;
+    text-align: center;
+}
+
+.add-to-cart-label{
+    font-family: the_bold_fontbold;
+    color: #ff8a00;
+}
+
+.add-to-cart-price{
+    font-size: 1.6em;
+    margin-top: 30px;
+    font-family: robotoMedium;
+}
+
+.add-to-cart-description{
+    font-family: robotoLight;
+    line-height: 24px;
+}
+
+.text-added-to-cart-response{
+    margin-top: 30px;
+}
+
+.btn-continue-shopping-holder{
+    margin-top: 50px;
+}
+
+.btn-add-to-cart, .btn-submit{
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: #2a901c;
+    font-family: robotoLight;
+    border-style: none;
+    -moz-transition: background-color 0.2s ease;
+    -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+.btn-add-to-cart:hover, .btn-submit:hover{
+    background-color: #ff8a00;
+}
+
+.btn-submit{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.order-form h4{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.form-group input[type=text]{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+.shipping-disclaimer{
+    font-family: robotoLight;
+    color: #a2510d;
+    margin-bottom: 30px;
+}
+
+.shipping-text{
+/*
+    border-radius: 0;
+    margin-bottom: 10px;
+    width: auto;
+*/
+}
+
+.form-group textArea{
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+input[type=number]{
+    max-width: 200px;
+    width: 100%;
+}
+
+.radio{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/*View cart modal*/
+
+
+.order-form{
+
+}
+
+.form-row-1, .form-row-2{
+    border: 1px solid black;
+}
+
+.view-cart-table-holder{
+    width: 100%;
+}
+
+.table-cart-details{
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    font-family: robotoLight;
+    
+}
+
+.table-cart-details th, .table-cart-details caption{
+    font-family: robotoReg;
+}
+
+.table-cart-details caption{
+    font-size: 1.2em;
+}
+
+.table-cart-details th{
+/*    font-size: 0.9em;*/
+}
+
+.table-cart-details th, .table-cart-details td{
+    border: 1px solid #d4d3d3;
+    text-align: center;
+    padding: 15px 4px 15px 4px;
+}
+
+table.table-cart-details td:first-child{
+    text-align: right;
+    border-right: none;
+}
+
+table.table-cart-details td:nth-child(2){
+    text-align: left;
+    border-left: none;
+}
+
+table.table-cart-details tr:last-child td:last-child{
+    text-align: right;
+    font-family: robotoMedium;
+    border-style: none;
+}
+
+.table-cart-details td img{
+    max-width: 100px;
+    max-height: 70px;
+    height: auto;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.btn-remove-item{
+    font-size: 1em;
+    text-decoration: none;
+    padding: 2px 6px 2px 6px;
+    color: white;
+    background-color: #585c57;
+    font-family: robotoLight;
+    border-style: none;
+    -moz-transition: background-color 0.2s ease;
+    -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+.btn-remove-item:hover{
+    background-color: #969696;
+}
+
+.shipping-total-amount-label{
+    font-family: robotoMedium;
+    font-size: 1.4em;
+    color: #804614;
+}
+
+.billing-text{
+    font-size: 1.6em;
+}
+
+.disclaimer{
+    color: #65370a;
+    font-family: robotoReg;
+    margin-top: 30px;
+}
+
+/*Order summary in shipping details (form) */
+.order-summary-holder{
+    border: 1px solid #f4f2f2;
+    padding: 15px;
+    background-color: #f8f8f8;
+}
+
+.order-item-details{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.order-item-details tr, .order-item-details td{
+    border-bottom: 1px solid #d9d9d9;
+    font-family: robotoMedium;
+    color: #434242;
+    padding: 20px 5px 20px;
+}
+
+.order-item-multiplier{
+    font-family: robotoLight;
+}
+
+.order-item-details td:last-child{
+    text-align: right;
+}
+
+.order-item-details tr:last-child{
+    padding: 25px 5px 25px;
+    font-size: 1.6em;
+    border-bottom-style: none;
+}
+
+.order-item-details tr:last-child td{
+    border-bottom-style: none;
+}
+
+
+/* Footer */
+.footer{
+	width: 100%;
+	padding: 100px 0 120px 0;
+	background-color: #1f572c;
+	color: white;
+	font-size: 13px;
+}
+
+#footer-text{
+	position: relative;
+/*	top: 55px;*/
+}
+
+.social-links{
+	margin-bottom: 30px;
+}
+
+.social-links a{
+	padding: 0 20px 0 20px;
+}
+
+.social-links a:hover{
+	opacity: 0.4;
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+#footer-text p:first-of-type{
+	position: relative;
+	top: 40px;
+	font-family: robotoLight;
+	font-size: 13px;
+}
+
+.fb-like{
+	position: relative;
+}
+
+.tw-follow{
+	position: relative;
+	top: 5px;
+	margin-left: 20px;
+}
+
+@media screen and (max-width:500px){
+    .table-image-item{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
