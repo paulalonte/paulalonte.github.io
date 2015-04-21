@@ -394,8 +394,8 @@ $(document).ready(function(){
             col.appendTo(row);
         } 
         
-        $('<tr><td>Subtotal</td><td>' + totalAmountPrice + '</td></tr>').appendTo('.order-item-details');
-        $('<tr><td>Total</td><td>' + totalAmountPrice + '</td></tr>').appendTo('.order-item-details');
+        $('<tr><td>Subtotal</td><td>Php ' + totalAmountPrice + '</td></tr>').appendTo('.order-item-details');
+        $('<tr><td>Total</td><td>Php ' + totalAmountPrice + '</td></tr>').appendTo('.order-item-details');
                 
     }
     
