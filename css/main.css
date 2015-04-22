@@ -425,7 +425,7 @@ nav li{
 /*Preloader*/
 .progress{
     border-radius: 0px;
-    height: 10px;
+    height: 6px;
 }
 
 .progress .progress-bar{
