@@ -422,6 +422,17 @@ nav li{
 }
 
 
+/*Preloader*/
+.progress{
+    border-radius: 0px;
+    height: 10px;
+}
+
+.progress .progress-bar{
+    background-color: #f7c708;
+}
+
+
 
 
 
