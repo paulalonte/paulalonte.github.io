@@ -4,8 +4,6 @@ $(document).ready(function() {
         var loader = new PxLoader(); 
         $('body').addClass('stop-scrolling');
         
-
-        //50 images
         for(var i=0; i < 50; i++) { 
             var pxImage = new PxLoaderImage("images/works/work-images/image" + (i + 1) + ".jpg"); 
             loader.add(pxImage); 
