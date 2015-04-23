@@ -48,6 +48,11 @@ body{
     width: auto;
 }
 
+.stop-scrolling{
+    overflow: hidden;
+    height: 100%;
+}
+
 .active{
 	color: #ffffff !important;
 }

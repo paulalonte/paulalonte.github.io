@@ -2,7 +2,8 @@ $(document).ready(function() {
     
     function startPreloader(){
         var loader = new PxLoader(); 
-        $('body').css('overflow','hidden');
+        $('body').addClass('stop-scrolling');
+        
 
         //50 images
         for(var i=0; i < 50; i++) { 
@@ -18,8 +19,7 @@ $(document).ready(function() {
         }); 
 
         loader.addCompletionListener(function(e) { 
-            console.log('Ready to go!'); 
-            $('body').css('overflow','scroll');
+            $('body').removeClass('stop-scrolling');
 
             init();
             setTimeout(animateSlide1Elements, 200);
