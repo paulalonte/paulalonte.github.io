@@ -1,10 +1,14 @@
-$(document).ready(function() {
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
+$(document).ready(function () {
     
     function startPreloader(){
+        
         var loader = new PxLoader(); 
         $('body').addClass('stop-scrolling');
         
-        for(var i=0; i < 50; i++) { 
+        for (var i=0; i < 50; i++) { 
             var pxImage = new PxLoaderImage("images/works/work-images/image" + (i + 1) + ".jpg"); 
             loader.add(pxImage); 
         } 
