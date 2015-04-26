@@ -2,10 +2,22 @@ $(document).ready(function(){
     
     //on nav click when used for mobile (using icon bar)
     $('.nav a').on('click', function(){ 
-        if($('.navbar-toggle').css('display') !='none'){
+        
+        var id = $(this).attr('id');
+        
+        switch(id){
+            case "shopNow": break;
+            case "followUs": break;
+            default: closeNavToggle(); break;
+        }
+        
+    });
+    
+    function closeNavToggle(){
+         if($('.navbar-toggle').css('display') !='none'){
             $(".navbar-toggle").trigger( "click" );
         }
-    });
+    }
     
     var aryRowVO = [];
     var cartItemCount = 0;
@@ -134,7 +146,7 @@ $(document).ready(function(){
             
             //show modal add to cart
             console.log("item click");
-//            $('addCartModal').modal('show');
+            //$('addCartModal').modal('show');
             
             //get id of clicked item
             var id = $(this).attr('id');
@@ -170,7 +182,7 @@ $(document).ready(function(){
                         $('.total-amount').html('TOTAL AMOUNT - ' + actualPrice);
                         $('.image-detail-product').attr('src', image);
                         
-                        console.log("image path: " + $('.image-detail-product').attr('src'));
+                        //console.log("image path: " + $('.image-detail-product').attr('src'));
                         
                         objProductItem.label = label;
                         objProductItem.price = actualPrice;
@@ -188,17 +200,12 @@ $(document).ready(function(){
 
                 var totalAmount = actualPrice * value;
                 var priceStr = 'TOTAL AMOUNT - ' + totalAmount;
-                
-//                console.log("TOTAL AMOUNT: " + priceStr);
 
                 $('.total-amount').html(priceStr);
                 
                 objProductItem.quantity = value;
                 objProductItem.totalAmount = totalAmount;
             });
-            
-            //on complete set items show detail holder
-//            $('.main-product-detail-holder').show();
             
         });
         
@@ -224,7 +231,7 @@ $(document).ready(function(){
                 
             case '03':
                 jsonPath = "data/green.json";
-                prodTitle = "Green Tea";
+                prodTitle = "Soap Nuts";
             break;
                 
             case 'search_product':
@@ -240,6 +247,8 @@ $(document).ready(function(){
         
         $('.products-title').html(prodTitle);
         $('#products-section').css('display','block');
+        
+        closeNavToggle();
     }
     
     $('.btn-brand').click(function(){
@@ -275,10 +284,8 @@ $(document).ready(function(){
     
     //on click button continue shopping - add to cart
     $('.btn-add-to-cart').click(function(){
-        
         //on click continue shopping/add to cart push to array object product item
         checkSameValue(aryProductItems);        
-        //$('#addCartModal').modal('hide');
         
     });
     
