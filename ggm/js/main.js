@@ -205,9 +205,9 @@ $(document).ready(function(){
         
     }
     
-    $('.btn-brand').click(function(){
+    function loadDataJSON(val){
+        var id = val;
         
-        var id = $(this).attr('id');
         var jsonPath = "";
         var prodTitle = "";
         
@@ -240,6 +240,19 @@ $(document).ready(function(){
         
         $('.products-title').html(prodTitle);
         $('#products-section').css('display','block');
+    }
+    
+    $('.btn-brand').click(function(){
+        var id = $(this).attr('id');
+        loadDataJSON(id);
+        
+    });
+    
+    $('.search-box').keydown(function(evt){
+       console.log(evt.keyCode);
+        if(evt.keyCode == 13){
+            loadDataJSON('search_product');
+        }
     });
     
     //on hide of add cart modal always reset the quantity to 1

@@ -145,7 +145,6 @@ nav li a:hover{
 .logo-container{
     margin-top: 90px;
     text-align: left;
-    
 }
 
 .search-box, .btn-search{
@@ -158,17 +157,30 @@ nav li a:hover{
 }
 
 .search-holder{
-    height: 50px;
     position: relative;
-    top: 15px;
+    top: 10px;
+    text-align: right;
+    padding-top: 5px;
+/*    border: 1px solid red;*/
+}
+
+.search-box{
+    border: 1.5px solid #cccaca;
+    padding: 8px;
+    font-family: robotoLight;
+    width: 200px;
 }
 
 
 .main-container{
-    margin-top: 40px;
+/*    margin-top: 40px;*/
 }
 
 /*--------------------------------------------carousel--------------------------------------------*/
+
+.carousel-holder{
+    margin-top: 40px;
+}
 
 .carousel{
     margin-bottom: 80px;
@@ -239,47 +251,6 @@ nav li a:hover{
     }
 }
 
-/*If width is less than 600px*/
-@media(max-width: 600px) { 
-    .logo img{
-        max-width: 350px;
-        width: 100%;
-    }
-    
-    .search-holder{
-        text-align: center;
-    }
-    
-   .carousel-caption {
-        bottom: 0%;
-       text-align: center;
-    }
-    
-    .carousel-indicators{
-        display: none;
-    }
-    
-    .carousel-caption h1{
-        font-size: 0.9em;
-    }
-
-    .carousel-caption h4{
-        font-size: 0.6em;
-    }
-}
-
-/*If width is less than 400px*/
-@media(max-width: 400px) {
-    .carousel-caption {
-        bottom: -10%;
-       text-align: center;
-    }
-    
-    .carousel-caption a{
-        width: auto;
-        font-size: 0.8em;
-    }
-}
 
 
 /*----------------------------product item css----------------------------*/
@@ -293,6 +264,7 @@ nav li a:hover{
     font-family: robotoMedium;
     color: #646464;
     padding-left: 30px;
+    font-size: 2.6em;
 }
 
 .brands a{
@@ -829,6 +801,75 @@ table.table-cart-details tr:last-child td:last-child{
 	top: 5px;
 	margin-left: 20px;
 }
+
+/*If width is less than 900px*/
+@media(max-width: 900px) { 
+    .logo-container{
+        text-align: center;
+    }
+    
+    .search-holder{
+        text-align: center;    
+    }
+    
+}
+
+/*If width is less than 600px*/
+@media(max-width: 600px) { 
+    
+    .logo-container{
+        text-align: center;
+    }
+    
+    .logo img{
+        max-width: 350px;
+        width: 100%;
+    }
+    
+    .search-holder{
+        text-align: center;
+    }
+    
+    .carousel-caption {
+        bottom: 0%;
+        text-align: center;
+    }
+    
+    .carousel-indicators{
+        display: none;
+    }
+    
+    .carousel-caption h1{
+        font-size: 2em;
+    }
+
+    .carousel-caption h4{
+        font-size: 1em;
+    }
+}
+
+/*If width is less than 400px*/
+@media(max-width: 400px) {
+    .carousel-caption {
+        bottom: -10%;
+       text-align: center;
+    }
+    
+    .carousel-caption a{
+        width: auto;
+        font-size: 0.8em;
+    }
+    
+    .carousel-caption h1{
+        font-size: 1em;
+    }
+
+    .carousel-caption h4{
+        font-size: 0.8em;
+    }
+}
+
+
 
 @media screen and (max-width:500px){
     .table-image-item{
