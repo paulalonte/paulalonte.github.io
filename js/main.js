@@ -121,13 +121,13 @@ $(document).ready(function () {
         });
 
         //show quote
-        $('.contact-title').each(function(){
-            var contactTitlePos = $(this).offset().top;
-            var topOfWindow = $(window).scrollTop();
-            if (contactTitlePos < topOfWindow + 400) {
-                $(this).addClass("slideUp");
-            }
-        });
+//        $('.contact-title').each(function(){
+//            var contactTitlePos = $(this).offset().top;
+//            var topOfWindow = $(window).scrollTop();
+//            if (contactTitlePos < topOfWindow + 400) {
+//                $(this).addClass("slideUp");
+//            }
+//        });
 
         //show thumb item
         $('.box').each(function(){
