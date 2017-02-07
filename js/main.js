@@ -13,6 +13,7 @@ $(document).ready(function () {
             loader.add(pxImage); 
         } 
 
+        
         // callback that runs every time an image loads 
         loader.addProgressListener(function(e) { 
             var percent = (e.completedCount / e.totalCount) * 100;
