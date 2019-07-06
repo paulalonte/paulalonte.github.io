@@ -38,8 +38,12 @@
 
 }
 
+:root {
+    --brand-color: #f7c708;
+}
+
 html, body{
-    height: 100%;
+    height: 100vh;
 }
 
 body{
@@ -105,7 +109,7 @@ body{
 }
 
 .text-paul{
-	color: #f7c708;
+	color: var(--brand-color);
 }
 
 /*font custom for nav links*/
@@ -127,26 +131,27 @@ nav li{
 #cover-content{
     text-align: center;
     color: white;
-    position: absolute;
     width: 100%;
-    height: 100%;
-}
-
-.header-content{
-    position: relative;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    padding: 0px 40px 0px 40px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .main-logo{
     font-family: robotoMedium;
     font-size: 4.2em;
     letter-spacing: -1px;
+}
+
+.header-content h1 {
+    margin: 0;
 }
 
 .header-content p{
@@ -175,10 +180,13 @@ nav li{
 	-o-transition: background-color 0.5s ease;
 	transition: background-color 0.5s ease;
     text-decoration: none;
+    display: block;
+    width: 12rem;
+    margin: 0 auto;
 }
 
 .header-content a:hover{
-	background-color: #f7c708;
+	background-color: var(--brand-color);
 	border: 1px none;
 }
 
@@ -197,7 +205,7 @@ nav li{
 }
 
 .paul{
-    color: #f7c708; 
+    color: var(--brand-color);
     font-family: robotoReg;
 }
 
@@ -334,7 +342,7 @@ nav li{
 
 /*slide 5 quote*/
 #slide5{
-    background-color: #f7c708;
+    background-color: var(--brand-color);
     text-align: center;
     color: white;
     width: 100%;
@@ -385,7 +393,7 @@ nav li{
 }
 
 #slide6 a:hover{
-    background-color: #f7c708;
+    background-color: var(--brand-color);
     border: 1px none;
 }
 
