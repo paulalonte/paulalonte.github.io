@@ -303,9 +303,8 @@ nav li{
     z-index: 999;
 }
 
-
 .work-items{
-    padding: 25px;
+    margin-bottom: 25px;
 }
 
 .box{
