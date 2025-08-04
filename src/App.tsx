@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { images } from "./images/images";
 import resume from "./assets/paul-alonte-cv.pdf";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 
 function App() {
+  const { t } = useTranslation();
+
   const [isDarkMode, setIsDarkMode] = useState(() => {
     // Check if user has a saved preference or if system prefers dark mode
     const saved = localStorage.getItem("darkMode");
@@ -53,6 +57,9 @@ function App() {
               about<span className="text-paul">paul</span>
             </h1>
             <div className="flex items-center space-x-4">
+              {/* Language Switcher */}
+              <LanguageSwitcher />
+
               {/* LinkedIn Icon */}
               <a
                 href="https://linkedin.com/in/paulalonte"
@@ -91,23 +98,20 @@ function App() {
         <div className="container">
           <div className="text-center">
             <h1 className="heading text-gray-900 dark:text-white transition-colors duration-300">
-              Hi, I'm Paul
+              {t("hero.greeting")}
             </h1>
             <p className="subheading transition-colors duration-300">
-              Senior Frontend Engineer
+              {t("hero.title")}
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8 transition-colors duration-300">
-              I build beautiful, functional, and user-centered digital
-              experiences by combining modern frontend technologies with
-              AI-powered tools. This allows me to accelerate development, design
-              workflows, and deliver impactful solutions more efficiently.
+              {t("hero.description")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-primary" onClick={scrollToWork}>
-                View My Work
+                {t("hero.viewWork")}
               </button>
               <button className="btn-secondary" onClick={downloadResume}>
-                Download CV
+                {t("hero.downloadCV")}
               </button>
             </div>
           </div>
@@ -118,32 +122,15 @@ function App() {
       <section className="section bg-white dark:bg-gray-900 transition-colors duration-300">
         <div className="container">
           <h2 className="heading text-center text-gray-900 dark:text-white transition-colors duration-300">
-            About Me
+            {t("about.title")}
           </h2>
           <div className="grid md:grid-cols-1 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 transition-colors duration-300">
-                I currently work as a Senior Frontend Engineer in Berlin,
-                Germany, where I focus on developing IoT software solutions for
-                laboratory environments. My role involves building and
-                maintaining cloud-based applications that enable the control and
-                tracking of laboratory devices and data. Additionally, I
-                leverage AI tools to enhance productivity, streamline workflows,
-                and rapidly build applications more efficiently. Beyond
-                technical development, I have experience working with UI/UX
-                initiatives to deliver an outstanding user experience. I believe
-                that clean, accessible, and efficient interfaces are essential
-                to successful software, and I enjoy collaborating closely with
-                design teams to bring that vision to life. Featured web
-                applications that I've worked on are Samsung, Intel, L'Oreal,
-                Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton,
-                Watsons, Dove, Garnier, Marlboro and Medicol. Feel free to view
-                all my works.
+                {t("about.description1")}
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 transition-colors duration-300">
-                When I'm not coding, you can find me exploring new technologies,
-                creating cinematic videos and animations, contributing to Stack
-                Overflow, or sharing knowledge with the developer community
+                {t("about.description2")}
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm transition-colors duration-300">
@@ -174,10 +161,10 @@ function App() {
       >
         <div className="container">
           <h2 className="heading text-center text-gray-900 dark:text-white transition-colors duration-300">
-            My Work
+            {t("work.title")}
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 text-center max-w-2xl mx-auto mb-12 transition-colors duration-300">
-            Here's a collection of my projects
+            {t("work.subtitle")}
           </p>
 
           {/* Responsive Image Grid */}
@@ -202,7 +189,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-800 dark:bg-gray-900 text-white py-8 transition-colors duration-300">
         <div className="container text-center">
-          <p>&copy; 2024 aboutpaul. All rights reserved.</p>
+          <p>{t("footer.copyright")}</p>
         </div>
       </footer>
     </div>

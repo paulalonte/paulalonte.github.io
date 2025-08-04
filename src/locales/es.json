@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "title": "aboutpaul"
+  },
+  "hero": {
+    "greeting": "Hola, soy Paul",
+    "title": "Ingeniero Frontend Senior",
+    "description": "Construyo experiencias digitales hermosas, funcionales y centradas en el usuario combinando tecnologías frontend modernas con herramientas impulsadas por IA. Esto me permite acelerar el desarrollo, optimizar los flujos de trabajo de diseño y entregar soluciones más eficientes.",
+    "viewWork": "Ver mi trabajo",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description1": "Actualmente trabajo como Ingeniero Frontend Senior en Berlín, Alemania, donde me enfoco en desarrollar soluciones de software IoT para entornos de laboratorio. Mi rol implica construir y mantener aplicaciones basadas en la nube que permiten el control y seguimiento de dispositivos y datos de laboratorio. Además, aprovecho las herramientas de IA para mejorar la productividad, optimizar los flujos de trabajo y construir aplicaciones de manera más eficiente. Más allá del desarrollo técnico, tengo experiencia trabajando con iniciativas de UI/UX para entregar una experiencia de usuario excepcional. Creo que las interfaces limpias, accesibles y eficientes son esenciales para el éxito del software, y disfruto colaborando estrechamente con equipos de diseño para dar vida a esa visión. Las aplicaciones web en las que he trabajado incluyen Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro y Medicol. No dudes en ver todos mis trabajos.",
+    "description2": "Cuando no estoy programando, puedes encontrarme explorando nuevas tecnologías, creando videos cinematográficos y animaciones, contribuyendo a Stack Overflow, o compartiendo conocimientos con la comunidad de desarrolladores"
+  },
+  "work": {
+    "title": "Mi trabajo",
+    "subtitle": "Aquí hay una colección de mis proyectos"
+  },
+  "footer": {
+    "copyright": "© 2024 aboutpaul. Todos los derechos reservados."
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  }
+} 

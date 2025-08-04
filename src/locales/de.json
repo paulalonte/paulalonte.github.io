@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "title": "aboutpaul"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin Paul",
+    "title": "Senior Frontend Engineer",
+    "description": "Ich entwickle schöne, funktionale und benutzerzentrierte digitale Erlebnisse, indem ich moderne Frontend-Technologien mit KI-gestützten Tools kombiniere. Dies ermöglicht es mir, die Entwicklung zu beschleunigen, Design-Workflows zu optimieren und effizienter wirkungsvolle Lösungen zu liefern.",
+    "viewWork": "Meine Arbeit ansehen",
+    "downloadCV": "Lebenslauf herunterladen"
+  },
+  "about": {
+    "title": "Über mich",
+    "description1": "Ich arbeite derzeit als Senior Frontend Engineer in Berlin, Deutschland, wo ich mich auf die Entwicklung von IoT-Softwarelösungen für Laborumgebungen konzentriere. Meine Rolle umfasst den Aufbau und die Wartung cloudbasierter Anwendungen, die die Steuerung und Verfolgung von Laborgeräten und -daten ermöglichen. Zusätzlich nutze ich KI-Tools, um die Produktivität zu steigern, Workflows zu optimieren und Anwendungen effizienter zu entwickeln. Neben der technischen Entwicklung habe ich Erfahrung in der Zusammenarbeit mit UI/UX-Initiativen, um ein herausragendes Benutzererlebnis zu liefern. Ich glaube, dass saubere, zugängliche und effiziente Schnittstellen für erfolgreiche Software unerlässlich sind, und ich genieße die enge Zusammenarbeit mit Designteams, um diese Vision zum Leben zu erwecken. Zu den Webanwendungen, an denen ich gearbeitet habe, gehören Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro und Medicol. Schauen Sie sich gerne alle meine Arbeiten an.",
+    "description2": "Wenn ich nicht programmiere, finden Sie mich beim Erkunden neuer Technologien, beim Erstellen von Kinovideos und Animationen, beim Beitragen zu Stack Overflow oder beim Teilen von Wissen mit der Entwicklergemeinschaft"
+  },
+  "work": {
+    "title": "Meine Arbeit",
+    "subtitle": "Hier ist eine Sammlung meiner Projekte"
+  },
+  "footer": {
+    "copyright": "© 2024 aboutpaul. Alle Rechte vorbehalten."
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  }
+} 

@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "title": "aboutpaul"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis Paul",
+    "title": "Ingénieur Frontend Senior",
+    "description": "Je construis des expériences numériques belles, fonctionnelles et centrées sur l'utilisateur en combinant les technologies frontend modernes avec des outils alimentés par l'IA. Cela me permet d'accélérer le développement, d'optimiser les flux de travail de conception et de livrer des solutions plus efficaces.",
+    "viewWork": "Voir mon travail",
+    "downloadCV": "Télécharger CV"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description1": "Je travaille actuellement comme Ingénieur Frontend Senior à Berlin, en Allemagne, où je me concentre sur le développement de solutions logicielles IoT pour les environnements de laboratoire. Mon rôle implique la construction et la maintenance d'applications cloud qui permettent le contrôle et le suivi des appareils et données de laboratoire. De plus, j'utilise des outils d'IA pour améliorer la productivité, rationaliser les flux de travail et construire des applications plus efficacement. Au-delà du développement technique, j'ai de l'expérience dans le travail avec des initiatives UI/UX pour offrir une expérience utilisateur exceptionnelle. Je crois que des interfaces propres, accessibles et efficaces sont essentielles au succès des logiciels, et j'aime collaborer étroitement avec les équipes de design pour donner vie à cette vision. Les applications web sur lesquelles j'ai travaillé incluent Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro et Medicol. N'hésitez pas à voir tous mes travaux.",
+    "description2": "Quand je ne code pas, vous pouvez me trouver en train d'explorer de nouvelles technologies, de créer des vidéos cinématiques et des animations, de contribuer à Stack Overflow, ou de partager des connaissances avec la communauté des développeurs"
+  },
+  "work": {
+    "title": "Mon travail",
+    "subtitle": "Voici une collection de mes projets"
+  },
+  "footer": {
+    "copyright": "© 2024 aboutpaul. Tous droits réservés."
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  }
+} 

@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "title": "aboutpaul"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Paul",
+    "title": "Senior Frontend Engineer",
+    "description": "I build beautiful, functional, and user-centered digital experiences by combining modern frontend technologies with AI-powered tools. This allows me to accelerate development, design workflows, and deliver impactful solutions more efficiently.",
+    "viewWork": "View My Work",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I currently work as a Senior Frontend Engineer in Berlin, Germany, where I focus on developing IoT software solutions for laboratory environments. My role involves building and maintaining cloud-based applications that enable the control and tracking of laboratory devices and data. Additionally, I leverage AI tools to enhance productivity, streamline workflows, and rapidly build applications more efficiently. Beyond technical development, I have experience working with UI/UX initiatives to deliver an outstanding user experience. I believe that clean, accessible, and efficient interfaces are essential to successful software, and I enjoy collaborating closely with design teams to bring that vision to life. Featured web applications that I've worked on are Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro and Medicol. Feel free to view all my works.",
+    "description2": "When I'm not coding, you can find me exploring new technologies, creating cinematic videos and animations, contributing to Stack Overflow, or sharing knowledge with the developer community"
+  },
+  "work": {
+    "title": "My Work",
+    "subtitle": "Here's a collection of my projects"
+  },
+  "footer": {
+    "copyright": "© 2024 aboutpaul. All rights reserved."
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  }
+} 
