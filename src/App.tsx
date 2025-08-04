@@ -158,11 +158,10 @@ function App() {
       <section className="section bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
         <div className="container">
           <h2 className="heading text-center text-gray-900 dark:text-white transition-colors duration-300">
-            Skills & Expertise
+            {t("skills.title")}
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 text-center max-w-2xl mx-auto mb-12 transition-colors duration-300">
-            Specialized areas where I excel in creating exceptional digital
-            experiences
+            {t("skills.subtitle")}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -185,11 +184,10 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
-                  Frontend Development
+                  {t("skills.frontend.title")}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
-                  React, TypeScript, Angular and responsive web applications
-                  with cutting-edge technologies
+                  {t("skills.frontend.description")}
                 </p>
               </div>
             </div>
@@ -213,11 +211,10 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
-                  UI/UX
+                  {t("skills.uiux.title")}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
-                  Figma wireframes, user-centered design, and intuitive
-                  interface creation
+                  {t("skills.uiux.description")}
                 </p>
               </div>
             </div>
@@ -241,10 +238,10 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
-                  Accessibility
+                  {t("skills.accessibility.title")}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
-                  Accessibility, WCAG, and inclusive design
+                  {t("skills.accessibility.description")}
                 </p>
               </div>
             </div>
@@ -268,11 +265,10 @@ function App() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
-                  AI Tools
+                  {t("skills.ai.title")}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
-                  AI-powered development, automation, and intelligent workflow
-                  optimization
+                  {t("skills.ai.description")}
                 </p>
               </div>
             </div>

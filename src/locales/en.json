@@ -14,6 +14,26 @@
     "description1": "I currently work as a Senior Frontend Engineer in Berlin, Germany, where I focus on developing IoT software solutions for laboratory environments. My role involves building and maintaining cloud-based applications that enable the control and tracking of laboratory devices and data. Additionally, I leverage AI tools to enhance productivity, streamline workflows, and rapidly build applications more efficiently. Beyond technical development, I have experience working with UI/UX initiatives to deliver an outstanding user experience. I believe that clean, accessible, and efficient interfaces are essential to successful software, and I enjoy collaborating closely with design teams to bring that vision to life. Featured web applications that I've worked on are Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro and Medicol. Feel free to view all my works.",
     "description2": "When I'm not coding, you can find me exploring new technologies, creating cinematic videos and animations, contributing to Stack Overflow, or sharing knowledge with the developer community"
   },
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "Specialized areas where I excel in creating exceptional digital experiences",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "React, TypeScript, Angular and responsive web applications with cutting-edge technologies"
+    },
+    "uiux": {
+      "title": "UI/UX",
+      "description": "Figma wireframes, user-centered design, and intuitive interface creation"
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "Accessibility, WCAG, and inclusive design"
+    },
+    "ai": {
+      "title": "AI Tools",
+      "description": "AI-powered development, automation, and intelligent workflow optimization"
+    }
+  },
   "work": {
     "title": "My Work",
     "subtitle": "Here's a collection of my projects"

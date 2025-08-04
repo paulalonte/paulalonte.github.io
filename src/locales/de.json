@@ -14,6 +14,26 @@
     "description1": "Ich arbeite derzeit als Senior Frontend Engineer in Berlin, Deutschland, wo ich mich auf die Entwicklung von IoT-Softwarelösungen für Laborumgebungen konzentriere. Meine Rolle umfasst den Aufbau und die Wartung cloudbasierter Anwendungen, die die Steuerung und Verfolgung von Laborgeräten und -daten ermöglichen. Zusätzlich nutze ich KI-Tools, um die Produktivität zu steigern, Workflows zu optimieren und Anwendungen effizienter zu entwickeln. Neben der technischen Entwicklung habe ich Erfahrung in der Zusammenarbeit mit UI/UX-Initiativen, um ein herausragendes Benutzererlebnis zu liefern. Ich glaube, dass saubere, zugängliche und effiziente Schnittstellen für erfolgreiche Software unerlässlich sind, und ich genieße die enge Zusammenarbeit mit Designteams, um diese Vision zum Leben zu erwecken. Zu den Webanwendungen, an denen ich gearbeitet habe, gehören Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro und Medicol. Schauen Sie sich gerne alle meine Arbeiten an.",
     "description2": "Wenn ich nicht programmiere, finden Sie mich beim Erkunden neuer Technologien, beim Erstellen von Kinovideos und Animationen, beim Beitragen zu Stack Overflow oder beim Teilen von Wissen mit der Entwicklergemeinschaft"
   },
+  "skills": {
+    "title": "Fähigkeiten & Expertise",
+    "subtitle": "Spezialisierte Bereiche, in denen ich bei der Erstellung außergewöhnlicher digitaler Erlebnisse glänze",
+    "frontend": {
+      "title": "Frontend-Entwicklung",
+      "description": "React, TypeScript, Angular und responsive Webanwendungen mit modernsten Technologien"
+    },
+    "uiux": {
+      "title": "UI/UX",
+      "description": "Figma-Wireframes, benutzerzentriertes Design und intuitive Schnittstellenerstellung"
+    },
+    "accessibility": {
+      "title": "Barrierefreiheit",
+      "description": "Barrierefreiheit, WCAG und inklusives Design"
+    },
+    "ai": {
+      "title": "KI-Tools",
+      "description": "KI-gestützte Entwicklung, Automatisierung und intelligente Workflow-Optimierung"
+    }
+  },
   "work": {
     "title": "Meine Arbeit",
     "subtitle": "Hier ist eine Sammlung meiner Projekte"
