@@ -5,7 +5,7 @@
   "hero": {
     "greeting": "Hi, I'm Paul",
     "title": "Senior Frontend Engineer",
-    "description": "I build beautiful, functional, and user-centered digital experiences by combining modern frontend technologies with AI-powered tools. This allows me to accelerate development, design workflows, and deliver impactful solutions more efficiently.",
+    "description": "I build scalable, accessible, and high-performance web applications with React and TypeScript, using an AI-driven workflow with Claude, MCP, and coding agents. This lets me ship features faster, modernize legacy code, and automate testing while delivering great user experiences.",
     "viewWork": "View My Work",
     "downloadCV": "DOWNLOAD CV"
   },

@@ -5,7 +5,7 @@
   "hero": {
     "greeting": "Hola, soy Paul",
     "title": "Ingeniero Frontend Senior",
-    "description": "Construyo experiencias digitales hermosas, funcionales y centradas en el usuario combinando tecnologías frontend modernas con herramientas impulsadas por IA. Esto me permite acelerar el desarrollo, optimizar los flujos de trabajo de diseño y entregar soluciones más eficientes.",
+    "description": "Desarrollo aplicaciones web escalables, accesibles y de alto rendimiento con React y TypeScript, usando un flujo de trabajo impulsado por IA con Claude, MCP y agentes de programación. Esto me permite entregar funcionalidades más rápido, modernizar código heredado y automatizar pruebas, mientras ofrezco excelentes experiencias de usuario.",
     "viewWork": "Ver mi trabajo",
     "downloadCV": "DESCARGAR CV"
   },

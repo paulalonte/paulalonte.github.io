@@ -5,7 +5,7 @@
   "hero": {
     "greeting": "Hallo, ich bin Paul",
     "title": "Senior Frontend Engineer",
-    "description": "Ich entwickle schöne, funktionale und benutzerzentrierte digitale Erlebnisse, indem ich moderne Frontend-Technologien mit KI-gestützten Tools kombiniere. Dies ermöglicht es mir, die Entwicklung zu beschleunigen, Design-Workflows zu optimieren und effizienter wirkungsvolle Lösungen zu liefern.",
+    "description": "Ich entwickle skalierbare, barrierefreie und performante Webanwendungen mit React und TypeScript und setze dabei auf einen KI-gestützten Workflow mit Claude, MCP und Coding-Agenten. So kann ich Features schneller ausliefern, Legacy-Code modernisieren und Tests automatisieren und gleichzeitig großartige Benutzererlebnisse schaffen.",
     "viewWork": "Meine Arbeit ansehen",
     "downloadCV": "LEBENSLAUF HERUNTERLADEN"
   },
