@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "Über mich",
-    "description1": "Ich arbeite derzeit als Senior Frontend Engineer in Berlin, Deutschland, wo ich mich auf die Entwicklung von IoT-Softwarelösungen für Laborumgebungen konzentriere. Meine Rolle umfasst den Aufbau und die Wartung cloudbasierter Anwendungen, die die Steuerung und Verfolgung von Laborgeräten und -daten ermöglichen. Zusätzlich nutze ich KI-Tools, um die Produktivität zu steigern, Workflows zu optimieren und Anwendungen effizienter zu entwickeln. Neben der technischen Entwicklung habe ich Erfahrung in der Zusammenarbeit mit UI/UX-Initiativen, um ein herausragendes Benutzererlebnis zu liefern. Ich glaube, dass saubere, zugängliche und effiziente Schnittstellen für erfolgreiche Software unerlässlich sind, und ich genieße die enge Zusammenarbeit mit Designteams, um diese Vision zum Leben zu erwecken. Zu den Webanwendungen, an denen ich gearbeitet habe, gehören Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro und Medicol. Schauen Sie sich gerne alle meine Arbeiten an.",
+    "description1": "Senior Fullstack Engineer mit Frontend-Schwerpunkt und über 15 Jahren Erfahrung in der Entwicklung skalierbarer, barrierefreier Webanwendungen mit React, Next.js, TypeScript und Angular, unterstützt durch Node.js/Fastify, REST-APIs und C#/.NET-Backends. Stark in Frontend-Architektur, Designsystemen und Performance, mit nachweislicher Erfahrung in der Modernisierung von Legacy-Codebasen und der Umsetzung von UI/UX-Designs in produktionsreife Produkte. Erfahren darin, Anwendungen von Ende zu Ende zu betreuen, vom Code bis zur Produktion: Containerisierung mit Docker, Deployment auf Kubernetes in AWS EKS mit Helm, Infrastructure as Code mit Terraform und automatisierte Releases mit CI/CD-Pipelines. Arbeitet im Alltag AI-first — mit Claude, KI-Coding-Agents und dem Model Context Protocol (MCP), um schneller zu liefern, Workflows zu automatisieren und die Codequalität zu steigern — und entwickelt KI-gestützte Produkte wie OFPLens, eine KI-App für Flugbriefings mit Evals zur Überprüfung der LLM-Genauigkeit.",
     "description2": "Wenn ich nicht programmiere, finden Sie mich beim Erkunden neuer Technologien, beim Erstellen von Kinovideos und Animationen, beim Beitragen zu Stack Overflow oder beim Teilen von Wissen mit der Entwicklergemeinschaft"
   },
   "skills": {
@@ -32,7 +32,26 @@
     "ai": {
       "title": "KI-Tools",
       "description": "KI-gestützte Entwicklung, Automatisierung und intelligente Workflow-Optimierung"
+    },
+    "cicd": {
+      "title": "CI/CD & Tests",
+      "description": "Automatisierte CI/CD-Pipelines, End-to-End-Tests und zuverlässige Release-Workflows"
+    },
+    "platform": {
+      "title": "Plattform & Deployment",
+      "description": "Infrastructure as Code mit Terraform, AWS EKS, ECR, Helm, Kind und K9s"
     }
+  },
+  "featured": {
+    "title": "Ausgewähltes Projekt",
+    "beta": "Beta",
+    "tagline": "Eine KI-gestützte Fullstack-App für Luftfahrtbegeisterte, die einen offiziellen Flugplan (OFP) in ein klares Briefing verwandelt.",
+    "point1": "Routendaten, Wettervorhersagen, ein KI-generiertes Briefing und eine Kartenansicht mit Gefahren entlang der Route.",
+    "point2": "KI-Briefing-Pipeline mit Claude entwickelt, mit Evals, die die Genauigkeit der Briefings anhand der Quelldaten messen.",
+    "point3": "Mit Docker containerisiert und auf Kubernetes (AWS EKS) mit Helm deployt, mit Infrastructure as Code in Terraform und CI/CD für automatisierte Builds und Deployments. Die Beta wird nachts abgebaut und bei Bedarf neu erstellt, um die Cloud-Kosten niedrig zu halten.",
+    "visit": "ofplens.app besuchen",
+    "github": "Auf GitHub ansehen",
+    "demoNote": "Live-Demo auf Anfrage"
   },
   "work": {
     "title": "Meine Arbeit",
@@ -47,4 +66,4 @@
     "fr": "Français",
     "es": "Español"
   }
-} 
+}

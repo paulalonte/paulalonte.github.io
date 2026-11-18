@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "Sobre mí",
-    "description1": "Actualmente trabajo como Ingeniero Frontend Senior en Berlín, Alemania, donde me enfoco en desarrollar soluciones de software IoT para entornos de laboratorio. Mi rol implica construir y mantener aplicaciones basadas en la nube que permiten el control y seguimiento de dispositivos y datos de laboratorio. Además, aprovecho las herramientas de IA para mejorar la productividad, optimizar los flujos de trabajo y construir aplicaciones de manera más eficiente. Más allá del desarrollo técnico, tengo experiencia trabajando con iniciativas de UI/UX para entregar una experiencia de usuario excepcional. Creo que las interfaces limpias, accesibles y eficientes son esenciales para el éxito del software, y disfruto colaborando estrechamente con equipos de diseño para dar vida a esa visión. Las aplicaciones web en las que he trabajado incluyen Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro y Medicol. No dudes en ver todos mis trabajos.",
+    "description1": "Ingeniero Fullstack Senior con enfoque en Frontend y más de 15 años de experiencia creando aplicaciones web escalables y accesibles con React, Next.js, TypeScript y Angular, respaldadas por backends en Node.js/Fastify, APIs REST y C#/.NET. Sólido en arquitectura frontend, sistemas de diseño y rendimiento, con un historial de modernización de bases de código legacy y de convertir diseños UI/UX en productos listos para producción. Con experiencia llevando aplicaciones de principio a fin, del código a producción: contenerización con Docker, despliegue en Kubernetes sobre AWS EKS con Helm, gestión de infraestructura como código con Terraform y automatización de releases con pipelines de CI/CD. Trabaja con un enfoque AI-first en el día a día — usando Claude, agentes de programación con IA y el Model Context Protocol (MCP) para acelerar la entrega, automatizar flujos de trabajo y elevar la calidad del código — y crea productos impulsados por IA como OFPLens, una app de briefing de vuelo con IA que usa evals para verificar la precisión de los LLM.",
     "description2": "Cuando no estoy programando, puedes encontrarme explorando nuevas tecnologías, creando videos cinematográficos y animaciones, contribuyendo a Stack Overflow, o compartiendo conocimientos con la comunidad de desarrolladores"
   },
   "skills": {
@@ -32,7 +32,26 @@
     "ai": {
       "title": "Herramientas IA",
       "description": "Desarrollo impulsado por IA, automatización y optimización inteligente de flujos de trabajo"
+    },
+    "cicd": {
+      "title": "CI/CD y Pruebas",
+      "description": "Pipelines de CI/CD automatizados, pruebas end-to-end y flujos de release fiables"
+    },
+    "platform": {
+      "title": "Plataforma y Despliegue",
+      "description": "Infraestructura como código con Terraform, AWS EKS, ECR, Helm, Kind y K9s"
     }
+  },
+  "featured": {
+    "title": "Proyecto destacado",
+    "beta": "Beta",
+    "tagline": "Una app fullstack impulsada por IA para entusiastas de la aviación que convierte un plan de vuelo oficial (OFP) en un briefing claro.",
+    "point1": "Datos de ruta, previsiones meteorológicas, un briefing generado por IA y una vista de mapa con los peligros a lo largo de la ruta.",
+    "point2": "Pipeline de briefing con IA construido con Claude, con evals que miden la precisión de los briefings frente a los datos de origen.",
+    "point3": "Contenerizada con Docker y desplegada en Kubernetes (AWS EKS) con Helm, con infraestructura como código en Terraform y CI/CD para builds y despliegues automatizados. La beta se apaga cada noche y se recrea bajo demanda para mantener bajos los costes de la nube.",
+    "visit": "Visitar ofplens.app",
+    "github": "Ver en GitHub",
+    "demoNote": "Demo en vivo bajo petición"
   },
   "work": {
     "title": "Mi trabajo",
@@ -47,4 +66,4 @@
     "fr": "Français",
     "es": "Español"
   }
-} 
+}

@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "À propos de moi",
-    "description1": "Je travaille actuellement comme Ingénieur Frontend Senior à Berlin, en Allemagne, où je me concentre sur le développement de solutions logicielles IoT pour les environnements de laboratoire. Mon rôle implique la construction et la maintenance d'applications cloud qui permettent le contrôle et le suivi des appareils et données de laboratoire. De plus, j'utilise des outils d'IA pour améliorer la productivité, rationaliser les flux de travail et construire des applications plus efficacement. Au-delà du développement technique, j'ai de l'expérience dans le travail avec des initiatives UI/UX pour offrir une expérience utilisateur exceptionnelle. Je crois que des interfaces propres, accessibles et efficaces sont essentielles au succès des logiciels, et j'aime collaborer étroitement avec les équipes de design pour donner vie à cette vision. Les applications web sur lesquelles j'ai travaillé incluent Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro et Medicol. N'hésitez pas à voir tous mes travaux.",
+    "description1": "Ingénieur Fullstack Senior orienté Frontend avec plus de 15 ans d'expérience dans la création d'applications web évolutives et accessibles avec React, Next.js, TypeScript et Angular, appuyées sur des backends Node.js/Fastify, des API REST et C#/.NET. Solide en architecture frontend, design systems et performance, avec une expérience reconnue dans la modernisation de bases de code legacy et la transformation de maquettes UI/UX en produits prêts pour la production. Habitué à mener les applications de bout en bout, du code à la production : conteneurisation avec Docker, déploiement sur Kubernetes dans AWS EKS avec Helm, gestion de l'infrastructure as code avec Terraform et automatisation des mises en production via des pipelines CI/CD. Travaille au quotidien avec une approche AI-first — en utilisant Claude, des agents de codage IA et le Model Context Protocol (MCP) pour accélérer la livraison, automatiser les workflows et améliorer la qualité du code — et conçoit des produits basés sur l'IA comme OFPLens, une application IA de briefing de vol avec des evals pour vérifier la précision des LLM.",
     "description2": "Quand je ne code pas, vous pouvez me trouver en train d'explorer de nouvelles technologies, de créer des vidéos cinématiques et des animations, de contribuer à Stack Overflow, ou de partager des connaissances avec la communauté des développeurs"
   },
   "skills": {
@@ -32,7 +32,26 @@
     "ai": {
       "title": "Outils IA",
       "description": "Développement alimenté par l'IA, automatisation et optimisation intelligente des flux de travail"
+    },
+    "cicd": {
+      "title": "CI/CD & Tests",
+      "description": "Pipelines CI/CD automatisés, tests end-to-end et workflows de mise en production fiables"
+    },
+    "platform": {
+      "title": "Plateforme & Déploiement",
+      "description": "Infrastructure as code avec Terraform, AWS EKS, ECR, Helm, Kind et K9s"
     }
+  },
+  "featured": {
+    "title": "Projet phare",
+    "beta": "Bêta",
+    "tagline": "Une application fullstack basée sur l'IA pour les passionnés d'aviation, qui transforme un plan de vol officiel (OFP) en un briefing clair.",
+    "point1": "Données de route, prévisions météo, un briefing généré par IA et une vue carte avec les dangers le long de la route.",
+    "point2": "Pipeline de briefing IA construit avec Claude, avec des evals qui mesurent la précision des briefings par rapport aux données sources.",
+    "point3": "Conteneurisé avec Docker et déployé sur Kubernetes (AWS EKS) avec Helm, avec l'infrastructure as code dans Terraform et du CI/CD pour des builds et déploiements automatisés. La bêta est arrêtée chaque nuit et recréée à la demande pour limiter les coûts cloud.",
+    "visit": "Visiter ofplens.app",
+    "github": "Voir sur GitHub",
+    "demoNote": "Démo en direct sur demande"
   },
   "work": {
     "title": "Mon travail",
@@ -47,4 +66,4 @@
     "fr": "Français",
     "es": "Español"
   }
-} 
+}

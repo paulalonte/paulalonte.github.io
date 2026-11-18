@@ -4,6 +4,49 @@ import { images } from "./images/images";
 import resume from "./assets/paul-alonte-cv.pdf";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 
+const ABOUT_SKILLS = [
+  "React",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Angular",
+  "Node.js",
+  "Fastify",
+  "C#/.NET",
+  "REST APIs",
+  "Design Systems",
+  "UI/UX",
+  "Accessibility",
+  "Performance",
+  "Docker",
+  "Kubernetes",
+  "AWS EKS",
+  "Helm",
+  "Terraform",
+  "CI/CD",
+  "Claude",
+  "AI Agents",
+  "MCP",
+];
+
+const OFPLENS_STACK = [
+  "Claude",
+  "LLM Evals",
+  "Docker",
+  "Kubernetes",
+  "AWS EKS",
+  "Helm",
+  "Terraform",
+  "CI/CD",
+];
+
+const CHIP_COLORS = [
+  "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200",
+  "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200",
+  "bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200",
+  "bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200",
+];
+
 function App() {
   const { t } = useTranslation();
 
@@ -103,9 +146,6 @@ function App() {
             <p className="subheading transition-colors duration-300">
               {t("hero.title")}
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8 transition-colors duration-300">
-              {t("hero.description")}
-            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-primary" onClick={scrollToWork}>
                 {t("hero.viewWork")}
@@ -133,21 +173,16 @@ function App() {
                 {t("about.description2")}
               </p>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm transition-colors duration-300">
-                  React
-                </span>
-                <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm transition-colors duration-300">
-                  TypeScript
-                </span>
-                <span className="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm transition-colors duration-300">
-                  Angular
-                </span>
-                <span className="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full text-sm transition-colors duration-300">
-                  JavaScript
-                </span>
-                <span className="px-3 py-1 bg-yellow-100 dark:bg-blue-900 text-yellow-800 dark:text-yellow-200 rounded-full text-sm transition-colors duration-300">
-                  UI/UX
-                </span>
+                {ABOUT_SKILLS.map((skill, i) => (
+                  <span
+                    key={skill}
+                    className={`px-3 py-1 rounded-full text-sm transition-colors duration-300 ${
+                      CHIP_COLORS[i % CHIP_COLORS.length]
+                    }`}
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
@@ -164,7 +199,7 @@ function App() {
             {t("skills.subtitle")}
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Frontend Development */}
             <div className="group bg-white dark:bg-gray-700 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="flex flex-col items-center text-center">
@@ -271,6 +306,123 @@ function App() {
                   {t("skills.ai.description")}
                 </p>
               </div>
+            </div>
+
+            {/* CI/CD & Testing */}
+            <div className="group bg-white dark:bg-gray-700 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg
+                    className="w-8 h-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
+                  {t("skills.cicd.title")}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
+                  {t("skills.cicd.description")}
+                </p>
+              </div>
+            </div>
+
+            {/* Platform & Deployment */}
+            <div className="group bg-white dark:bg-gray-700 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-sky-600 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg
+                    className="w-8 h-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
+                  {t("skills.platform.title")}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
+                  {t("skills.platform.description")}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Project Section */}
+      <section className="section bg-white dark:bg-gray-900 transition-colors duration-300">
+        <div className="container">
+          <h2 className="heading text-center text-gray-900 dark:text-white transition-colors duration-300">
+            {t("featured.title")}
+          </h2>
+          <div className="max-w-4xl mx-auto bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-6 sm:p-10 transition-colors duration-300">
+            <div className="flex flex-wrap items-center gap-3 mb-2">
+              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white transition-colors duration-300">
+                OFPLens
+              </h3>
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200">
+                {t("featured.beta")}
+              </span>
+            </div>
+            <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-6 transition-colors duration-300">
+              {t("featured.tagline")}
+            </p>
+            <ul className="space-y-3 mb-8 text-gray-600 dark:text-gray-400 transition-colors duration-300">
+              {(["point1", "point2", "point3"] as const).map((key) => (
+                <li key={key} className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f7c708]" />
+                  <span>{t(`featured.${key}`)}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-wrap gap-2 mb-8">
+              {OFPLENS_STACK.map((tech, i) => (
+                <span
+                  key={tech}
+                  className={`px-3 py-1 rounded-full text-sm transition-colors duration-300 ${
+                    CHIP_COLORS[i % CHIP_COLORS.length]
+                  }`}
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+              <a
+                href="https://ofplens.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-center"
+              >
+                {t("featured.visit")}
+              </a>
+              <a
+                href="https://github.com/paulalonte/ofplens"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary text-center uppercase"
+              >
+                {t("featured.github")}
+              </a>
+              <span className="text-sm text-gray-500 dark:text-gray-400 transition-colors duration-300">
+                {t("featured.demoNote")}
+              </span>
             </div>
           </div>
         </div>

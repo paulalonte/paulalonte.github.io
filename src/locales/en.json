@@ -11,7 +11,7 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "I currently work as a Senior Frontend Engineer in Berlin, Germany, where I focus on developing IoT software solutions for laboratory environments. My role involves building and maintaining cloud-based applications that enable the control and tracking of laboratory devices and data. Additionally, I leverage AI tools to enhance productivity, streamline workflows, and rapidly build applications more efficiently. Beyond technical development, I have experience working with UI/UX initiatives to deliver an outstanding user experience. I believe that clean, accessible, and efficient interfaces are essential to successful software, and I enjoy collaborating closely with design teams to bring that vision to life. Featured web applications that I've worked on are Samsung, Intel, L'Oreal, Samsonite, Mentos, Globe, Del Monte, Ayala, Maybelline, Lipton, Watsons, Dove, Garnier, Marlboro and Medicol. Feel free to view all my works.",
+    "description1": "Senior Frontend-focused Fullstack Engineer with 15+ years of experience building scalable, accessible web applications with React, Next.js, TypeScript and Angular, backed by Node.js/Fastify, REST APIs and C#/.NET backends. Strong in frontend architecture, design systems and performance, with a track record of modernising legacy codebases and turning UI/UX designs into production-ready products. Experienced in taking applications end to end, from code to production: containerising with Docker, deploying to Kubernetes on AWS EKS with Helm, managing infrastructure as code with Terraform, and automating releases with CI/CD pipelines. Works AI-first day to day — using Claude, AI coding agents and the Model Context Protocol (MCP) to speed up delivery, automate workflows and raise code quality — and builds AI-powered products such as OFPLens, an AI flight-briefing app with evals to verify LLM accuracy.",
     "description2": "When I'm not coding, you can find me exploring new technologies, creating cinematic videos and animations, contributing to Stack Overflow, or sharing knowledge with the developer community"
   },
   "skills": {
@@ -32,7 +32,26 @@
     "ai": {
       "title": "AI Tools",
       "description": "AI-powered development, automation, and intelligent workflow optimization"
+    },
+    "cicd": {
+      "title": "CI/CD & Testing",
+      "description": "Automated CI/CD pipelines, end-to-end testing and reliable release workflows"
+    },
+    "platform": {
+      "title": "Platform & Deployment",
+      "description": "Infrastructure as code with Terraform, AWS EKS, ECR, Helm, Kind and K9s"
     }
+  },
+  "featured": {
+    "title": "Featured Project",
+    "beta": "Beta",
+    "tagline": "A fullstack AI-powered app for aviation enthusiasts that turns an official flight plan (OFP) into a clear briefing.",
+    "point1": "Route data, weather forecasts, an AI-generated briefing and a map view with hazards along the route.",
+    "point2": "AI briefing pipeline built with Claude, with evals that measure briefing accuracy against the source data.",
+    "point3": "Containerised with Docker and deployed on Kubernetes (AWS EKS) with Helm, with infrastructure as code in Terraform and CI/CD for automated builds and deployments. The beta is torn down nightly and recreated on demand to keep cloud costs low.",
+    "visit": "Visit ofplens.app",
+    "github": "View on GitHub",
+    "demoNote": "Live demo available on request"
   },
   "work": {
     "title": "My Work",
@@ -47,4 +66,4 @@
     "fr": "Français",
     "es": "Español"
   }
-} 
+}
